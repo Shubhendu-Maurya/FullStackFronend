@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+.container{
+    text-align: center;
+}
+
+figcaption{
+    font-size:0.9em;
+    line-height: 1.6em;
+}
+ul{
+list-style-type:none;
+
+}
+
+.logo{
+    width: 50px;
+    padding: 1.5em;
+    height: 50px;
+}
+.server{
+    width: 300px;
+    height: 320px;
+    
+}
+header{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .hide-mobile{
+     display:  ;
+ }
+ nav{
+     padding: 1.5em;
+ }
+
+ h1{
+     padding-bottom: 1.5em;
+     z-index: 3;
+ }
+.blue-container{
+    background: #00C2FF;
+    padding: 4em 0em 2em;
+    width:100%;
+    transform: skewY(-2deg);
+    border-top-left-radius: 30px;
+}
+
+.blue-container:before{
+    content: "";
+    background: #00c2ff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: -39;
+    z-index: -2;
+    
+
+}
+.blue-container:after{
+    content: "";
+    background: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: -70;
+    border-radius: 50%;
+    z-index: -2;
+    
+}
+
+.blue-container ul{
+    transform: skewY(2deg);
+
+}
+.feedback{
+   background:#f6f6f6;
+   margin-top: -1em;;
+   padding-top: 3em;
+   
+}
+
+.users{
+    border-radius: 50%;
+}
+
+.footer-container{
+    text-align: left;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+}
+
+.footer-container ul li:first-child{
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    
+}
+.footer-container ul li:nth-child(n+2){
+    font-size: 0.8em;
+    padding-bottom: 0.6em ;
+    
+    
+    
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: inherit;
+    
+    
+}
+.feedback ul li:nth-child(3){
+    display: none;
+}
+
+  .cta{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+ .container3{
+     padding-top: 1em;
+     padding-bottom: 1em;
+     
+ } 
+ .container3 h2{
+     padding-bottom: 0.5em;
+ }
+
+ .searchbox{
+     border: 3px solid #00C2FF;
+     width: 50%;
+     padding: 9px;
+     font-size: 15px;
+ }
+
+ .searchbtn{
+     position: absolute;
+     height: 41.2px;
+     width: 50px;
+     border: 3px solid #00C2FF;
+     background-color: #00c2ff;
+     text-align: centre;
+     color: #fff;
+     cursor: pointer;
+     font-size: 15px;
+
+    
+ }
+ .searchbut{
+     float:left;
+     
+ }
+
+.menu{
+  
+    
+}
+
+.show-desktop{
+    display:flex;
+    justify-content: space-between;
+    display: none;
+    
+}
+.show-desktop ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+  
+  
